@@ -27,6 +27,7 @@ repositories {
 
 dependencies {
     compile('org.springframework.kafka:spring-kafka')
+    compile('org.apache.kafka:kafka-clients:1.0.0')
     compile('org.springframework.boot:spring-boot-starter-web')
 //    compile 'org.springframework.shell:spring-shell-starter:2.0.0.M2'
     compile 'org.springframework.boot:spring-boot-starter-actuator'
